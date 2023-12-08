@@ -45,15 +45,17 @@ p {
   border: none;
   cursor: pointer;
 }
-.btn-light {
-  
-}
 .btn:hover {
   background: #f7c08a;
   color: #333;
 }
 .bg-dark {
-
+  background: #333;
+  color: #fff;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
 }
 
 
@@ -108,4 +110,26 @@ p {
 .hero-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* HOME INFO section */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url(../images/photo-1.jpg) no-repeat;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
