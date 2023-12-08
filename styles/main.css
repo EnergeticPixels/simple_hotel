@@ -53,6 +53,14 @@ p {
   background: #333;
   color: #fff;
 }
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  color: #333;
+  background-color: #f7c08a;
+}
 .btn-light {
   background: #f4f4f4;
   color: #333;
@@ -112,6 +120,7 @@ p {
   line-height: 1.7em;
 }
 
+
 /* HOME INFO section */
 #home-info {
   height: 400px;
@@ -132,4 +141,25 @@ p {
 }
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+
+/* FEATURES section */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+
+/* FOOTER section */
+#main-footer {
+  text-align:center;
+  background-color: #444;
+  color: white;
+  padding: 20px;
 }
