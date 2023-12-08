@@ -1,0 +1,6 @@
+{
+    "editor.tabSize": 2,
+    "extensions.ignoreRecommendations": false,
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 8080
+}
