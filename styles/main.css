@@ -80,6 +80,7 @@ p {
 }
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 
@@ -92,7 +93,7 @@ p {
 #navbar a {
   color: white;
 }
-#navbar h1 {
+#navbar logo {
   float: left;
   padding-top: 20px;
 }
@@ -139,7 +140,7 @@ p {
 
 /* HOME INFO section */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 #home-info .info-img {
   float: left;
@@ -195,7 +196,7 @@ p {
 
 /* TESTIMONIALS */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background-image: url(../images/test-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
